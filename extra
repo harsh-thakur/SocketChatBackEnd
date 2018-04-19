@@ -1,0 +1,24 @@
+    // socket.on('leave', function (data) {
+    //     //left 
+    //     // console.log(data);
+
+    //     users.forEach(function (element) {
+    //         //console.log('hejlfdk');
+
+    //         // console.log(element);
+
+    //         if (element.email == data.sender) {
+    //             //console.log(element.id);   
+    //             socket.leave(element.id);
+    //             index = users.indexOf(element);
+
+    //       delete users[index];
+    //       users = users.filter(Boolean);
+    //             console.log(users);
+    //             console.log(data.user + ' left the room with id:' + element.id);
+    //         }
+    //     });
+
+    //     socket.broadcast.to(data.id).emit('left room', { user: data.user, message: 'has left the room' });
+
+    // });
