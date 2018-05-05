@@ -7,7 +7,7 @@ var bodyParser= require('body-parser');
 app.use(bodyParser());
 var mongoose = require('mongoose');
 
-mongoose.connect('mongodb://localhost/chats', function (err) {
+mongoose.connect('mongodb://localhost/conversationTest1', function (err) {
     if (err) {
         console.log(err);
     } else {
